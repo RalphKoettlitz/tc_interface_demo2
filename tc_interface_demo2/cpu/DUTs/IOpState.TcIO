@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <Itf Name="IOpState" Id="{4f8c6240-3be4-4eac-bed4-b2f9bc42dd20}">
+    <Declaration><![CDATA[INTERFACE IOpState
+]]></Declaration>
+    <Property Name="OpState" Id="{44182264-f0ea-4bf1-ac51-d63afef83d19}">
+      <Declaration><![CDATA[PROPERTY OpState : OpState]]></Declaration>
+      <Get Name="Get" Id="{75baca91-b412-46ed-9409-d7e98d4bc48d}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+    </Property>
+  </Itf>
+</TcPlcObject>

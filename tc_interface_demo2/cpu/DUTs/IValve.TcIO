@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.6">
+  <Itf Name="IValve" Id="{c418efc0-7fa7-477a-b160-97b4e66d5689}">
+    <Declaration><![CDATA[INTERFACE IValve
+]]></Declaration>
+    <Property Name="Value" Id="{39aaeb44-5b34-4f55-a98d-bb5658807dc4}">
+      <Declaration><![CDATA[PROPERTY Value : LREAL]]></Declaration>
+      <Get Name="Get" Id="{8f450a79-a271-4dc4-a003-db3696f7e2df}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+    </Property>
+  </Itf>
+</TcPlcObject>
